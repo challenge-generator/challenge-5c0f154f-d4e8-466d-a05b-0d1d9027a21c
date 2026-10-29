@@ -1,0 +1,387 @@
+{
+  "organizaciones": [
+    {
+      "id": "ORG-001",
+      "nombre": "FinTech Solutions S.A.",
+      "sector": "Financiero",
+      "tamano": "Grande",
+      "nivel_gartner_actual": "2- Gestionado",
+      "nivel_deltha_actual": "Explorador",
+      "dimensiones": {
+        "datos": {
+          "puntuacion": 65,
+          "descripcion": "Cumplimiento parcial de calidad de datos",
+          "indicadores": [
+            "Inventario de datos parcial",
+            "Métricas de calidad definidas",
+            "Gobierno de datos básico"
+          ]
+        },
+        "tecnologia": {
+          "puntuacion": 55,
+          "descripcion": "Stack tecnológico en evolución",
+          "indicadores": [
+            "Data warehouse operativo",
+            "Pipeline de datos básicos",
+            "Herramientas de BI en uso"
+          ]
+        },
+        "procesos": {
+          "puntuacion": 45,
+          "descripcion": "Procesos analíticos emergentes",
+          "indicadores": [
+            "Reporting regular",
+            "Proyectos ad-hoc",
+            "Metodología en definición"
+          ]
+        },
+        "personas": {
+          "puntuacion": 40,
+          "descripcion": "Equipo de datos incipiente",
+          "indicadores": [
+            "Equipo de 3 analistas",
+            "Capacitación básica",
+            "Roles no formalizados"
+          ]
+        },
+        "governance": {
+          "puntuacion": 35,
+          "descripcion": "Gobernanza inicial",
+          "indicadores": [
+            "Política de datos básica",
+            "Sin catálogo formal",
+            " Stewardship parcial"
+          ]
+        }
+      },
+      "objetivo_madurez": "3- Definido",
+      "prioridades": [
+        "Implementar catálogo de datos",
+        "Formalizar equipo de datos",
+        "Estandarizar procesos analíticos"
+      ]
+    },
+    {
+      "id": "ORG-002",
+      "nombre": "Retail Dynamics C.A.",
+      "sector": "Comercio",
+      "tamano": "Mediano",
+      "nivel_gartner_actual": "1- Inicial",
+      "nivel_deltha_actual": "Novato",
+      "dimensiones": {
+        "datos": {
+          "puntuacion": 20,
+          "descripcion": "Gestión de datos reactiva",
+          "indicadores": [
+            "Sin inventario de datos",
+            "Calidad de datos no medida",
+            "Sin gobierno de datos"
+          ]
+        },
+        "tecnologia": {
+          "puntuacion": 25,
+          "descripcion": "Infraestructura básica",
+          "indicadores": [
+            "Hojas de cálculo principales",
+            "Sin pipeline de datos",
+            "Toolkit limitado"
+          ]
+        },
+        "procesos": {
+          "puntuacion": 15,
+          "descripcion": "Procesos analíticos inexistentes",
+          "indicadores": [
+            "Decisiones por intuición",
+            "Sin reporting estructurado",
+            "Proyectos esporádicos"
+          ]
+        },
+        "personas": {
+          "puntuacion": 10,
+          "descripcion": "Sin expertise en datos",
+          "indicadores": [
+            "Sin equipo dedicado",
+            "Conocimiento básico en Excel",
+            "Sin cultura data-driven"
+          ]
+        },
+        "governance": {
+          "puntuacion": 5,
+          "descripcion": "Sin gobernanza",
+          "indicadores": [
+            "Sin políticas de datos",
+            "Acceso no controlado",
+            "Sin gestión de cambios"
+          ]
+        }
+      },
+      "objetivo_madurez": "2- Gestionado",
+      "prioridades": [
+        "Establecer inventario de datos",
+        "Contratar primer analista",
+        "Implementar métricas básicas"
+      ]
+    },
+    {
+      "id": "ORG-003",
+      "nombre": "HealthData Corp",
+      "sector": "Salud",
+      "tamano": "Grande",
+      "nivel_gartner_actual": "3- Definido",
+      "nivel_deltha_actual": "Analítico",
+      "dimensiones": {
+        "datos": {
+          "puntuacion": 75,
+          "descripcion": "Gestión de datos madura",
+          "indicadores": [
+            "Catálogo de datos activo",
+            "Calidad de datos medida",
+            "Lineage implementado"
+          ]
+        },
+        "tecnologia": {
+          "puntuacion": 70,
+          "descripcion": "Plataforma moderna",
+          "indicadores": [
+            "Data Lake operativo",
+            "ML en producción",
+            "Real-time processing"
+          ]
+        },
+        "procesos": {
+          "puntuacion": 65,
+          "descripcion": "Procesos estandarizados",
+          "indicadores": [
+            "Metodología definida",
+            "Proyectos con ROI",
+            "Gestión de modelos"
+          ]
+        },
+        "personas": {
+          "puntuacion": 60,
+          "descripcion": "Equipo competente",
+          "indicadores": [
+            "Equipo de 15 personas",
+            "Roles especializados",
+            "Capacitación continua"
+          ]
+        },
+        "governance": {
+          "puntuacion": 55,
+          "descripcion": "Gobernanza formal",
+          "indicadores": [
+            "Comité de datos activo",
+            "Políticas documentadas",
+            "Auditorías regulares"
+          ]
+        }
+      },
+      "objetivo_madurez": "4- Cuantitativo",
+      "prioridades": [
+        "Implementar observabilidad",
+        "Avanzar en MLops",
+        "Medir impacto de modelos"
+      ]
+    },
+    {
+      "id": "ORG-004",
+      "nombre": "Manufacturing Insights Ltd",
+      "sector": "Industrial",
+      "tamano": "Mediano",
+      "nivel_gartner_actual": "4- Cuantitativo",
+      "nivel_deltha_actual": "Transformador",
+      "dimensiones": {
+        "datos": {
+          "puntuacion": 85,
+          "descripcion": "Excelencia en gestión de datos",
+          "indicadores": [
+            "Data Mesh implementado",
+            "Quality automation",
+            "Self-service data"
+          ]
+        },
+        "tecnologia": {
+          "puntuacion": 80,
+          "descripcion": "Arquitectura avanzada",
+          "indicadores": [
+            "Cloud-native data platform",
+            "MLops enterprise",
+            "Real-time ML"
+          ]
+        },
+        "procesos": {
+          "puntuacion": 78,
+          "descripcion": "Procesos optimizados",
+          "indicadores": [
+            "CI/CD para datos",
+            "A/B testing continuo",
+            "Medición de ROI"
+          ]
+        },
+        "personas": {
+          "puntuacion": 75,
+          "descripcion": "Cultura data-driven",
+          "indicadores": [
+            "Citizens data scientists",
+            "Comunidad activa",
+            "Career path definido"
+          ]
+        },
+        "governance": {
+          "puntuacion": 72,
+          "descripcion": "Gobernanza automatizada",
+          "indicadores": [
+            "Policy as code",
+            "Automated compliance",
+            "Stewardship formal"
+          ]
+        }
+      },
+      "objetivo_madurez": "5- Optimizado",
+      "prioridades": [
+        "Innovar con IA generativa",
+        "Establecer data marketplace",
+        "Liderar ecosistema"
+      ]
+    },
+    {
+      "id": "ORG-005",
+      "nombre": "BankCorp International",
+      "sector": "Financiero",
+      "tamano": "Grande",
+      "nivel_gartner_actual": "3- Definido",
+      "nivel_deltha_actual": "Analítico",
+      "dimensiones": {
+        "datos": {
+          "puntuacion": 70,
+          "descripcion": "Datos regulados y controlados",
+          "indicadores": [
+            "Inventario completo",
+            "Calidad auditada",
+            "Cumplimiento normativo"
+          ]
+        },
+        "tecnologia": {
+          "puntuacion": 68,
+          "descripcion": "Infraestructura robusta",
+          "indicadores": [
+            "Data warehouse enterprise",
+            "ETL estructurado",
+            "BI corporativo"
+          ]
+        },
+        "procesos": {
+          "puntuacion": 60,
+          "descripcion": "Procesos en evolución",
+          "indicadores": [
+            "Metodología de proyectos",
+            "Reporting estándar",
+            "Gestión de riesgos"
+          ]
+        },
+        "personas": {
+          "puntuacion": 55,
+          "descripcion": "Equipo en crecimiento",
+          "indicadores": [
+            "Equipo de 20 personas",
+            "Estructura de áreas",
+            "Capacitación formal"
+          ]
+        },
+        "governance": {
+          "puntuacion": 72,
+          "descripcion": "Gobernanza regulatoria",
+          "indicadores": [
+            "Cumplimiento estricto",
+            "Auditorías formales",
+            "Políticas robustas"
+          ]
+        }
+      },
+      "objetivo_madurez": "4- Cuantitativo",
+      "prioridades": [
+        "Avanzar en analítica predictiva",
+        "Mejorar cultura de datos",
+        "Implementar MLops"
+      ]
+    }
+  ],
+  "modelo_gartner": {
+    "niveles": [
+      {
+        "nivel": 1,
+        "nombre": "Inicial",
+        "descripcion": "Procesos reactivos, sin estándarización",
+        "caracteristicas": [
+          "Sin procesos de datos formalizados",
+          "Decisiones basadas en intuición",
+          "Sin visibilidad de activos de datos"
+        ]
+      },
+      {
+        "nivel": 2,
+        "nombre": "Gestionado",
+        "descripcion": "Procesos básicos establecidos",
+        "caracteristicas": [
+          "Procesos de datos reactivos",
+          "Gestión básica de calidad",
+          "Inventario de datos básico"
+        ]
+      },
+      {
+        "nivel": 3,
+        "nombre": "Definido",
+        "descripcion": "Procesos estándar organizacionalmente",
+        "caracteristicas": [
+          "Metodología de datos establecida",
+          "Data governance formal",
+          "Catálogo de datos activo"
+        ]
+      },
+      {
+        "nivel": 4,
+        "nombre": "Cuantitativo",
+        "descripcion": "Gestión optimizada mediante métricas",
+        "caracteristicas": [
+          "Gestión basada en datos",
+          "Métricas de negocio medibles",
+          "ML en producción"
+        ]
+      },
+      {
+        "nivel": 5,
+        "nombre": "Optimizado",
+        "descripcion": "Mejora continua e innovación",
+        "caracteristicas": [
+          "Innovación continua",
+          "Data-driven organization",
+          "Liderazgo en datos"
+        ]
+      }
+    ]
+  },
+  "modelo_deltha": {
+    "niveles": [
+      {
+        "nombre": "Novato",
+        "descripcion": "Sin capacidades analíticas",
+        "enfoque": "Supervivencia"
+      },
+      {
+        "nombre": "Explorador",
+        "descripcion": "Analítica básica emergente",
+        "enfoque": "Experimentación"
+      },
+      {
+        "nombre": "Analítico",
+        "descripcion": "Analítica establecida",
+        "enfoque": "Optimización"
+      },
+      {
+        "nombre": "Transformador",
+        "descripcion": "Analítica avanzada e innovación",
+        "enfoque": "Transformación"
+      }
+    ]
+  }
+}
